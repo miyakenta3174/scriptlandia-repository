@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.martiansoftware</groupId>
+  <artifactId>nailgun-bin</artifactId>
+  <name>Nailgun Binaries</name>
+  <version>0.7.1</version>
+</project>

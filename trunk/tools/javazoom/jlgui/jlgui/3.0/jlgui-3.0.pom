@@ -1,0 +1,51 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javazoom.jlgui</groupId>
+  <artifactId>jlgui</artifactId>
+  <version>3.0</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.0.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javazoom.jlayer</groupId>
+      <artifactId>jlayer</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javazoom.jlgui</groupId>
+      <artifactId>basicplayer</artifactId>
+      <version>3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.xiph</groupId>
+      <artifactId>speex</artifactId>
+      <version>0.9.7</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.kc7bfi</groupId>
+      <artifactId>jflac</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>davaguine.jmac.spi</groupId>
+      <artifactId>jmactritonus</artifactId>
+      <version>1.74</version>
+    </dependency>
+
+    <dependency>
+      <groupId>kj</groupId>
+      <artifactId>dsp</artifactId>
+      <version>1.1</version>
+    </dependency>
+  </dependencies>
+
+</project>

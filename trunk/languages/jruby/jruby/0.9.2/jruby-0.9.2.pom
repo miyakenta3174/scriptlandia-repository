@@ -1,0 +1,27 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jruby</groupId>
+  <artifactId>jruby</artifactId>
+  <name>Jruby</name>
+  <version>0.9.2</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>jruby</groupId>
+      <artifactId>jvyaml</artifactId>
+      <version>0.9.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jruby</groupId>
+      <artifactId>plaincharset</artifactId>
+      <version>0.9.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>2.2.2</version>
+    </dependency>
+  </dependencies>
+</project>

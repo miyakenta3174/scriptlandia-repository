@@ -1,0 +1,19 @@
+<?xml version="1.0"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.webtide</groupId>
+  <artifactId>maven-archetype-Tapestry</artifactId>
+  <name>Archetype - maven-archetype-Tapestry</name>
+  <version>1.0</version>
+  <description>An archetype for generating a template for a web application that uses Tapestry, based on the sample web application.</description>
+  <url>http://www.webtide.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <distributionManagement>
+    <status>deployed</status>
+  </distributionManagement>
+</project>

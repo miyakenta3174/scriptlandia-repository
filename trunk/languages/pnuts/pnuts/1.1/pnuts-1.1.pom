@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pnuts</groupId>
+  <artifactId>pnuts</artifactId>
+  <name>Pnuts</name>
+  <version>1.1</version>
+</project>

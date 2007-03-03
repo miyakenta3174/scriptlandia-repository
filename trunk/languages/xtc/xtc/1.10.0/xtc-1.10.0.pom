@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xtc</groupId>
+  <artifactId>xtc</artifactId>
+  <version>1.10.0</version>
+  <name>eXTensible C</name>
+</project>

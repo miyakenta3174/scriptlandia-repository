@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jawk</groupId>
+  <artifactId>jawk</artifactId>
+  <version>0.14</version>
+</project>
