@@ -1,0 +1,41 @@
+<?xml version="1.0"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.webtide</groupId>
+  <artifactId>maven-archetype-SiteMesh</artifactId>
+  <name>Archetype - maven-archetype-SiteMesh</name>
+  <version>1.0</version>
+  <description>An archetype for generating a template for a web application that uses SiteMesh, based on the sample web application.</description>
+  <url>http://www.webtide.com</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>blah</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <echo>Copying sitemesh jar to  ${settings.localRepository}</echo>
+                <copy todir="${settings.localRepository}/com/opensymphony/module/sitemesh/2.2.1" file="src/main/resources/sitemesh/sitemesh-2.2.1.jar"></copy>
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <status>deployed</status>
+  </distributionManagement>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun.script</groupId>
+  <artifactId>jawk-engine</artifactId>
+  <version>1.0</version>
+</project>

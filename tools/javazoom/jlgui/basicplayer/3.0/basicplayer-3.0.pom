@@ -1,0 +1,27 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javazoom.jlgui</groupId>
+  <artifactId>basicplayer</artifactId>
+  <version>3.0</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.0.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javazoom.spi</groupId>
+      <artifactId>mpeg</artifactId>
+      <version>1.9.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javazoom.spi</groupId>
+      <artifactId>vorbis</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+  </dependencies>
+
+</project>

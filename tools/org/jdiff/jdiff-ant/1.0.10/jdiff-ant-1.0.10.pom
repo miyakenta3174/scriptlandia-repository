@@ -1,0 +1,15 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jdiff</groupId>
+  <artifactId>jdiff-ant</artifactId>
+  <version>1.0.10</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jdiff</groupId>
+      <artifactId>jdiff</artifactId>
+      <version>1.0.10</version>
+    </dependency>
+  </dependencies>
+
+</project>

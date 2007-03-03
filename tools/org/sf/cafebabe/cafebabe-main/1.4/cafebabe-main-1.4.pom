@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <parent>
+    <artifactId>cafebabe</artifactId>
+    <groupId>org.sf.cafebabe</groupId>
+    <version>1.4</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.sf.cafebabe</groupId>
+  <artifactId>cafebabe-main</artifactId>
+  <name>Cafebabe Bytecode Editor Main Module</name>
+  <version>1.4</version>
+  <description>Cafebabe Bytecode Editor</description>
+  <build>
+    <finalName>cafebabe-main-1.4</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+          <debug>true</debug>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+          <optimize>false</optimize>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <jar update="true" jarfile="${project.build.directory}/${artifactId}-1.4.${packaging}">
+                  <manifest>
+                    <attribute name="Class-Path" value="lib/activation-1.1.jar lib/mac.jar lib/classfile-1.1.jar lib/serfile-1.1.jar lib/netlib-1.1.jar lib/mdi-1.1.jar"></attribute>
+                    <attribute name="Main-Class" value="org.sf.cafebabe.Main"></attribute>
+                  </manifest>
+                </jar>
+                <copy file="${project.build.directory}/${artifactId}-1.4.${packaging}" tofile="${project.build.directory}/${artifactId}-scriptlandia-1.4.${packaging}"></copy>
+                <jar update="true" jarfile="${project.build.directory}/${artifactId}-scriptlandia-1.4.${packaging}">
+                  <manifest>
+                    <attribute name="Class-Path" value="lib/activation-1.1.jar lib/mac.jar lib/classfile-1.1.jar lib/serfile-1.1.jar lib/netlib-1.1.jar lib/mdi-1.1.jar"></attribute>
+                    <attribute name="Main-Class" value="org.sf.cafebabe.Main"></attribute>
+                  </manifest>
+                  <zipfileset dir="../classfile" includes="target/classfile-1.1.jar" fullpath="lib/classfile-1.1.jar"></zipfileset>
+                  <zipfileset dir="../serfile" includes="target/serfile-1.1.jar" fullpath="lib/serfile-1.1.jar"></zipfileset>
+                  <zipfileset dir="../netlib" includes="target/netlib-1.1.jar" fullpath="lib/netlib-1.1.jar"></zipfileset>
+                  <zipfileset dir="../mdi" includes="target/mdi-1.1.jar" fullpath="lib/mdi-1.1.jar"></zipfileset>
+                  <zipfileset dir="${settings.localRepository}" includes="javax/activation/activation/1.1/activation-1.1.jar" fullpath="lib/activation-1.1.jar"></zipfileset>
+                  <zipfileset dir="lib" includes="mac.jar" fullpath="lib/mac.jar"></zipfileset>
+                </jar>
+              </tasks>
+            </configuration>
+          </execution>
+          <execution>
+            <id>site</id>
+            <phase>site</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <copy todir="../target/site/${project.artifactId}">
+                  <fileset dir="target/site"></fileset>
+                </copy>
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptors>
+            <descriptor>src/main/assembly/src.xml</descriptor>
+            <descriptor>src/main/assembly/bin.xml</descriptor>
+          </descriptors>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>javax.activation</groupId>
+      <artifactId>activation</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sf.classfile</groupId>
+      <artifactId>classfile</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sf.serfile</groupId>
+      <artifactId>serfile</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sf.mdi</groupId>
+      <artifactId>mdi</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sf.netlib</groupId>
+      <artifactId>netlib</artifactId>
+    </dependency>
+  </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>changes-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>dependencies</report>
+              <report>project-team</report>
+              <report>mailing-list</report>
+              <report>cim</report>
+              <report>issue-tracking</report>
+              <report>license</report>
+              <report>scm</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+  <distributionManagement>
+    <status>deployed</status>
+  </distributionManagement>
+</project>
