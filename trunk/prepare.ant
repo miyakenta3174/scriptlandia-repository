@@ -1,0 +1,17 @@
+<!-- prepare.ant -->
+
+<project name="prepare" default="prepare" basedir=".">
+
+  <target name="prepare">
+
+   <zip destfile="scriptlandia-accelerator-2.2.0.zip">
+
+     <zipfileset dir="languages" prefix="maven-repository-accelerator"/>
+
+     <zipfileset dir="tools" prefix="maven-repository-accelerator"/>
+
+     <zipfileset dir="accelerator" prefix="maven-repository-accelerator"/>
+    </zip>
+  </target>
+
+</project>
