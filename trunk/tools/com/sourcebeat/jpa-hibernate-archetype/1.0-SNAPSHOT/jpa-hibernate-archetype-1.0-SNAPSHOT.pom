@@ -1,0 +1,36 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sourcebeat</groupId>
+  <artifactId>jpa-hibernate-archetype</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <description>This archetype was created to make building a JPA project quick and easy.  The archetype provides you with a simple pom file references the current ga releases of Hibernate.  It also includes a simple entity and JUnit test.  The required JPA persistence.xml file is also created and configured to use Hibernate as the persistence provider.  The included README file will explain how to add new entities to your project.  Currently, only Hibernate is supported as the persistence provider, however, I have an experimental version that also supports TopLink.</description>
+  <packaging>maven-plugin</packaging>
+  <name>JPA Hibernate Quick Start Archetype</name>
+  <url>TODO</url>
+  <developers>
+    <developer>
+      <id>cmaki</id>
+      <name>Chris Maki</name>
+      <email>chrismaki@mac.com</email>
+      <organization>SourceBeat.com</organization>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-7</timezone>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:https://svn.sourcebeat.com/svn/sourcebeat/trunk/downloads/jpa/maven/archetype/jpa-hibernate-archetype</connection>
+    <developerConnection>scm:svn:https://svn.sourcebeat.com/svn/sourcebeat/trunk/downloads/jpa/maven/archetype/jpa-hibernate-archetype</developerConnection>
+    <url>scm:svn:https://svn.sourcebeat.com/svn/sourcebeat/trunk/downloads/jpa/maven/archetype/jpa-hibernate-archetype</url>
+  </scm>
+
+</project>
+<!-- $Id: pom.xml,v 1.2 2006/11/01 06:32:20 chrismaki Exp $ -->
