@@ -1,0 +1,15 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scriptella</groupId>
+  <artifactId>scriptella-tools</artifactId>
+  <version>0.8</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>scriptella</groupId>
+      <artifactId>scriptella-core</artifactId>
+      <version>0.8</version>
+    </dependency>
+  </dependencies>
+
+</project>
