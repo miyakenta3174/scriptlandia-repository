@@ -3,4 +3,10 @@
   <groupId>net.java</groupId>
   <artifactId>f3</artifactId>
   <version>1.0</version>
+
+  <dependencies>
+    <groupId>net.java</groupId>
+    <artifactId>f3-filters</artifactId>
+    <version>1.0</version>
+  </dependencies>
 </project>
