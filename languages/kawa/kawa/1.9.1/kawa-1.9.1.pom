@@ -1,0 +1,11 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>kawa</groupId>
+  <artifactId>kawa</artifactId>
+  <version>1.9.1</version>
+  <name>Kawa</name>
+
+  <packaging>jar</packaging>
+  
+</project>
