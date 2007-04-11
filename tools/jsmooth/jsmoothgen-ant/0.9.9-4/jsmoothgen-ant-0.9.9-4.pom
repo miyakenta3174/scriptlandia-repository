@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jsmooth</groupId>
+  <artifactId>jsmoothgen-ant</artifactId>
+  <version>0.9.9-4</version>
+</project>
