@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- sim.deps -->
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sim</groupId>
+  <artifactId>sim</artifactId>
+  <version>1.0.1</version>
+</project>
