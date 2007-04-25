@@ -3,5 +3,5 @@
   <groupId>jline</groupId>
   <artifactId>jline</artifactId>
   <version>0.9.91</version>
-  <name>Jruby</name>
+  <name>jline</name>
 </project>
