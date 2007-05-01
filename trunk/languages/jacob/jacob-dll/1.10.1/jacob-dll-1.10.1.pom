@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jacob</groupId>
+  <artifactId>jacob-dll</artifactId>
+  <version>1.10.1</version>
+</project>
