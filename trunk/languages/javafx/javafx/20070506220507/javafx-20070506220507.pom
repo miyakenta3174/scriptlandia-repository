@@ -3,4 +3,10 @@
   <groupId>javafx</groupId>
   <artifactId>javafx</artifactId>
   <version>20070506220507</version>
+
+  <dependencies>
+    <groupId>javafx</groupId>
+    <artifactId>filters</artifactId>
+    <version>20070506220507</version>
+  </dependencies>
 </project>
