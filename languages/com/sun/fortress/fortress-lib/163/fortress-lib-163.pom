@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun.fortress</groupId>
+  <artifactId>fortress-lib</artifactId>
+  <name>Fortress Library</name>
+  <version>163</version>
+</project>
