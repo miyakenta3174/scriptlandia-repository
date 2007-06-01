@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javafx</groupId>
+  <artifactId>javafx</artifactId>
+  <version>200706011412</version>
+
+  <dependencies>
+    <groupId>javafx</groupId>
+    <artifactId>filters</artifactId>
+    <version>20070506220507</version>
+  </dependencies>
+</project>
