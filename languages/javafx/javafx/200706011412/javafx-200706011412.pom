@@ -5,10 +5,11 @@
   <version>200706011412</version>
 
   <dependencies>
+
     <dependency>
-      <groupId>com.jhlabs</groupId>
+      <groupId>javafx</groupId>
       <artifactId>filters</artifactId>
-      <version>2.0.235</version>
+      <version>20070506220507</version>
     </dependency>
 
     <dependency>
