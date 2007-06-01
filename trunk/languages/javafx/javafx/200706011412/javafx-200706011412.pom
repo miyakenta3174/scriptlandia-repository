@@ -5,8 +5,17 @@
   <version>200706011412</version>
 
   <dependencies>
-    <groupId>javafx</groupId>
-    <artifactId>filters</artifactId>
-    <version>20070506220507</version>
+    <dependency>
+      <groupId>javafx</groupId>
+      <artifactId>filters</artifactId>
+      <version>20070506220507</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.java.dev.swing-layout</groupId>
+      <artifactId>swing-layout</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+
   </dependencies>
 </project>
