@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun.tools</groupId>
+  <artifactId>javac</artifactId>
+  <version>7.0-b13</version>
+  <description>Java 7 compiler</description>
+</project>
