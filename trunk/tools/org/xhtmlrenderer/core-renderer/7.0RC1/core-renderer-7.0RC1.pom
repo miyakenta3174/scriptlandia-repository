@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.xhtmlrenderer</groupId>
+  <artifactId>core-renderer</artifactId>
+  <version>7.0RC1</version>
+</project>
