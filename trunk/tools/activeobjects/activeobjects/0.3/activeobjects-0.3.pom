@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>activeobjects</groupId>
+  <artifactId>activeobjects</artifactId>
+  <version>0.3</version>
+
+  <dependencies>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.1</version>
+  </dependencies>
+</project>
