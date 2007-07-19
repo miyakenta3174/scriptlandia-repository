@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jdesktop.fuse</groupId>
+  <artifactId>fuse-swt</artifactId>
+  <version>0.4</version>
+</project>
