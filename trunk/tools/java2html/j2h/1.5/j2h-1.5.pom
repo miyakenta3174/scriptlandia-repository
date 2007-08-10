@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>java2html</groupId>
+  <artifactId>j2h</artifactId>
+  <version>1.5</version>
+</project>
