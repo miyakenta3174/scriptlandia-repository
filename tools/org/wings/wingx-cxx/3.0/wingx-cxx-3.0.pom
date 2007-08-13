@@ -1,6 +1,6 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.wings</groupId>
-  <artifactId>wings-css</artifactId>
+  <artifactId>wingx-cxx</artifactId>
   <version>3.0</version>
 </project>
