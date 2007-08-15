@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.groovy.gant</groupId>
+  <artifactId>gant</artifactId>
+  <packaging>jar</packaging>
+  <version>0.3.2</version>
+  <name>Gant</name>
+
+  <description>
+    Gant is a Groovy-based build framework that provides a scripting system for Ant tasks.
+  </description>
+  <url>http://groovy.codehaus.org/Gant</url>
+  <inceptionYear>2006</inceptionYear>
+  <licenses>
+    <license>
+      <name>ASL 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:svn:http://svn.codehaus.org/groovy/trunk/groovy/modules/gant</connection>
+    <url>http://svn.codehaus.org/groovy/trunk/groovy/modules/gant</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>russel</id>
+      <name>Russel Winder</name>
+      <email>russel@concertant.com</email>
+      <organization>Concertant LLP</organization>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>1.1-beta-2</version>
+    </dependency>
+  </dependencies>
+  
+</project>
