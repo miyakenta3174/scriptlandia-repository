@@ -34,14 +34,10 @@
         <artifactId>coreplugin</artifactId>
         <version>1.2.1</version>
       </dependency>
+
       <dependency>
         <groupId>findbugs</groupId>
         <artifactId>findbugs-ant</artifactId>
-        <version>1.2.1</version>
-      </dependency>
-      <dependency>
-        <groupId>findbugs</groupId>
-        <artifactId>findbugsGUI</artifactId>
         <version>1.2.1</version>
       </dependency>
 
