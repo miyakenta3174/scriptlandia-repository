@@ -6,6 +6,12 @@
 
   <dependencies>
     <dependency>
+      <groupId>clojure</groupId>
+      <artifactId>boot</artifactId>
+      <version>20071018</version>
+    </dependency>
+
+    <dependency>
       <artifactId>asm</artifactId>
       <groupId>asm</groupId>
       <version>3.0</version>
