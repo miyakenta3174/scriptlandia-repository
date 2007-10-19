@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>clojure</groupId>
+  <artifactId>clojure</artifactId>
+  <version>20071018</version>
+
+  <dependencies>
+    <dependency>
+      <artifactId>asm</artifactId>
+      <groupId>asm</groupId>
+      <version>3.0</version>
+    </dependency>
+  </dependencies>
+</project>
