@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>groovy</groupId>
+  <artifactId>groovyws-standalone</artifactId>
+  <version>0.1.1</version>
+
+</project>
