@@ -1,8 +1,0 @@
-<project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>javax.xml</groupId>
-  <artifactId>jaxb-xjc</artifactId>
-  <version>2.1.4</version>
-  <packaging>jar</packaging>
-  <name>JAXB 2.1 XJC</name>
-</project>
