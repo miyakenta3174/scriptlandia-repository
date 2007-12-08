@@ -29,6 +29,12 @@
       <artifactId>bcel</artifactId>
       <version>5.2</version>
     </dependency>
+
+    <dependency>
+      <groupId>edu.rice</groupId>
+      <artifactId>plt</artifactId>
+      <version>20070717-1913</version>
+    </dependency>
   </dependencies>
 
 </project>
