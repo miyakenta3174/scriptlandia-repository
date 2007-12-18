@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ptilde</groupId>
+  <artifactId>ptilde-lib</artifactId>
+  <name>P~ Library</name>
+  <version>0.90</version>
+</project>
