@@ -1,0 +1,20 @@
+<project">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.szegedi.spring</groupId>
+  <artifactId>rhinoinspring</artifactId>
+  <version>1.2</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring</artifactId>
+      <version>2.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>rhino</groupId>
+      <artifactId>js</artifactId>
+      <version>1.6R4</version>
+    </dependency>
+  </dependencies>
+</project>
