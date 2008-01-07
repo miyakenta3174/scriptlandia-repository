@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>chrriis.dj</groupId>
+  <artifactId>nativeswing</artifactId>
+  <version>0.9.1</version>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse</groupId>
+      <artifactId>swt-win32</artifactId>
+      <version>3.4m3</version>
+    </dependency>
+  </dependencies>
+</project>
