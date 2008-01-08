@@ -3,5 +3,12 @@
   <groupId>org.texturemedia</groupId>
   <artifactId>smarturls</artifactId>
   <version>s2-0.18</version>
-  <description>POM was created from install:install-file</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>java-net-commons</groupId>
+      <artifactId>java-net-commons</artifactId>
+      <version>1.3.11</version>
+    </dependency>
+  </dependencies>
 </project>
