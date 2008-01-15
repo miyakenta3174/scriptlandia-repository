@@ -30,14 +30,13 @@
     <dependency>
       <groupId>com.sun.tools</groupId>
       <artifactId>javac</artifactId>
-      <version>7.0-b16</version>
-      <classifier>jdk1.5</classifier>
+      <version>7.0-b23</version>
+      <!--classifier>jdk1.5</classifier-->
     </dependency>
   </dependencies>
 
   <build>
     <defaultGoal>package</defaultGoal>
-    <finalName>${artifactId}-${version}-jdk${java.specification.version}</finalName>
 
     <resources>
       <resource>
@@ -66,5 +65,13 @@
       </plugin>
     </plugins>
   </build>
+  
+  <repositories>
+    <repository>
+      <id>scriptlandia-repo</id>
+      <name>Scriptlandia Maven2 repository</name>
+      <url>http://scriptlandia-repository.googlecode.com/svn/trunk/languages</url>
+    </repository>
+  </repositories>
 
 </project>
