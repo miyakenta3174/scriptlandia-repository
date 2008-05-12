@@ -85,12 +85,12 @@
       <scope>provided</scope>
     </dependency>
 
-    <dependency>
+    <!--dependency>
       <groupId>org.jruby.extras</groupId>
       <artifactId>jvyamlb</artifactId>
       <version>0.1.1</version>
       <scope>provided</scope>
-    </dependency>
+    </dependency-->
 
     <!--dependency>
       <groupId>org.jruby.extras</groupId>
