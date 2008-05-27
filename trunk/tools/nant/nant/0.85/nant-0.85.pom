@@ -1,0 +1,6 @@
+<?xml version="1.0"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nant</groupId>
+  <artifactId>nant</artifactId>
+  <version>0.85</version>
+</project>
