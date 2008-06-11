@@ -37,7 +37,7 @@
 
       <dependency>
         <groupId>findbugs</groupId>
-        <artifactId>findbugs-ant</artifactId>
+        <artifactId>jsr305</artifactId>
         <version>1.3.4</version>
       </dependency>
 
