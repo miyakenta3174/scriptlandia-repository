@@ -17,12 +17,6 @@
         <version>1.2.1</version>
       </dependency>
 
-      <!--dependency>
-        <groupId>bcel</groupId>
-        <artifactId>bcel</artifactId>
-        <version>5.2</version>
-      </dependency-->
-
       <dependency>
         <groupId>findbugs</groupId>
         <artifactId>findbugs-bcel</artifactId>
@@ -75,6 +69,24 @@
     <dependency>
       <groupId>asm</groupId>
       <artifactId>asm-tree</artifactId>
+      <version>3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm-analysis</artifactId>
+      <version>3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm-util</artifactId>
+      <version>3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm-xml</artifactId>
       <version>3.0</version>
     </dependency>
   </dependencies>
