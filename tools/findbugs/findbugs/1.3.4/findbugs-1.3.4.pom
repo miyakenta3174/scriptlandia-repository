@@ -65,6 +65,12 @@
       <artifactId>asm</artifactId>
       <version>3.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm-tree</artifactId>
+      <version>3.0</version>
+    </dependency>
   </dependencies>
 
 </project>
