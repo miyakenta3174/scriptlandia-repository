@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sleep</groupId>
+  <artifactId>slumber</artifactId>
+  <version>1.0-b1</version>
+</project>
