@@ -8,11 +8,6 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <properties>
-    <classifier></classifier>
-    <java.specification.version>1.5</java.specification.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>judo</groupId>
