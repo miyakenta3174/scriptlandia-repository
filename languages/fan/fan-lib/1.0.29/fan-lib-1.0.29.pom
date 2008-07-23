@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fan</groupId>
+  <artifactId>fan-lib</artifactId>
+  <version>1.0.29</version>
+</project>
