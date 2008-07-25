@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>schemaspy</groupId>
+  <artifactId>schemaspy</artifactId>
+  <version>3.1.1</version>
+</project>
