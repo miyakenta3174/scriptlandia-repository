@@ -7,72 +7,18 @@
 	</parent-->
 	
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>da-launcher</artifactId>
-	<groupId>org.dynamicjava.osgi</groupId>
-
-	<name>Dynamic Application Launcher</name>
-	<version>1.0.2</version>
+	<artifactId>osgi-commons</artifactId>
+	<name>OSGi Common Utility Classes</name>
 	<packaging>jar</packaging>
-	<description>Runtime for launching Dynamic Java Applications with OSGi</description>
+	<version>1.1.0</version>
 	
 	<dependencies>
-		<dependency>
-			<groupId>org.dynamicjava.osgi</groupId>
-			<artifactId>osgi-commons</artifactId>
-			<version>1.1.0</version>
-		</dependency>
-		
 		<dependency>
 			<groupId>org.osgi</groupId>
 			<artifactId>org.osgi.core</artifactId>
 			<version>4.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-servlet_2.5_spec</artifactId>
-			<version>1.2</version>
-		</dependency>
 		
-		<dependency>
-			<groupId>org.eclipse</groupId>
-			<artifactId>osgi</artifactId>
-			<version>3.3.0-v20070530</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.felix</groupId>
-			<artifactId>org.apache.felix.main</artifactId>
-			<version>1.0.4</version>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.apache.felix</groupId>
-					<artifactId>org.apache.felix.shell</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.apache.felix</groupId>
-					<artifactId>org.apache.felix.shell.tui</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.apache.felix</groupId>
-					<artifactId>org.apache.felix.bundlerepository</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>knopflerfish</groupId>
-			<artifactId>framework</artifactId>
-			<version>2.0.5</version>
-			<scope>test</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.dynamicjava.osgi</groupId>
-			<artifactId>osgi-commons</artifactId>
-			<version>1.1.0</version>
-			<classifier>tests</classifier>
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -91,6 +37,13 @@
 						<manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
 					</archive>
 				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			
 			<plugin>
