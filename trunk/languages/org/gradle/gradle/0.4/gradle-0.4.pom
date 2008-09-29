@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.gradle</groupId>
+  <artifactId>gradle</artifactId>
+  <packaging>jar</packaging>
+  <version>0.4</version>
+  <name>Gradle</name>
+
+</project>
