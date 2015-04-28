@@ -1,0 +1,1 @@
+Maven 2 repository for Scriptlandia project
